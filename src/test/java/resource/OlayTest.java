@@ -1,4 +1,4 @@
-package resource;
+﻿package resource;
 
 
 import java.io.IOException;
@@ -31,7 +31,7 @@ public class OlayTest extends Base {
 	@Test(dataProvider = "sendData")
 	public void validate(String url) throws IOException,InterruptedException
 	{
-		//BasicConfigurator.configure();
+		BasicConfigurator.configure();
 		DataFromExcl dt=new DataFromExcl();
 		int cou=dt.getRowCount();
 		while(cou!=1)
