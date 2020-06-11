@@ -1,0 +1,49 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 59.485 s <<< FAILURE! - in TestSuite
+resource.AssQ1.formfill  Time elapsed: 5.477 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using class name=firstname
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ULTIMATE-PC', ip: '192.168.55.106', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_241'
+Driver info: driver.version: RemoteWebDriver
+	at resource.AssQ1.formfill(AssQ1.java:59)
+
+resource.AssQ1.dragNdrop  Time elapsed: 6.068 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using xpath=//div[@id='draggable']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ULTIMATE-PC', ip: '192.168.55.106', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_241'
+Driver info: driver.version: RemoteWebDriver
+	at resource.AssQ1.dragNdrop(AssQ1.java:84)
+
+resource.AssQ1.datePicker  Time elapsed: 2.919 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using xpath=//input[@id='datepicker']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ULTIMATE-PC', ip: '192.168.55.106', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_241'
+Driver info: driver.version: RemoteWebDriver
+	at resource.AssQ1.datePicker(AssQ1.java:96)
+
+resource.AssQ1.selectMenu  Time elapsed: 4.045 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using xpath=//span[@tabindex='0']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ULTIMATE-PC', ip: '192.168.55.106', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_241'
+Driver info: driver.version: RemoteWebDriver
+	at resource.AssQ1.selectMenu(AssQ1.java:126)
+
+resource.AssQ1.controlGrp  Time elapsed: 5.049 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using xpath=//span[@id='ui-id-8-button']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ULTIMATE-PC', ip: '192.168.55.106', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_241'
+Driver info: driver.version: RemoteWebDriver
+	at resource.AssQ1.controlGrp(AssQ1.java:153)
+

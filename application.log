@@ -1,0 +1,8 @@
+2020-06-10 06:37:49,404  INFO [main] Base:46 - count of rows remaining 3
+2020-06-10 06:37:59,129  INFO [main] Base:54 - current url https://www.olay.co.uk/en-gb
+2020-06-10 06:37:59,129 ERROR [main] Base:55 - Url launching error
+2020-06-10 06:38:03,553  INFO [main] Base:59 - Register page opens
+2020-06-10 06:38:04,679  INFO [main] Base:89 - Entered registration details
+2020-06-10 06:38:11,543  INFO [main] Base:100 - Clicks on submit button
+2020-06-10 06:38:11,620  INFO [main] Base:109 - As the details alreeady exists it is navigated to signin page
+2020-06-10 06:38:27,610  INFO [main] Base:46 - count of rows remaining 2
